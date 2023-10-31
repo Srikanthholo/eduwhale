@@ -1,0 +1,106 @@
+<p>scalendar works!</p>
+ 
+  <!-- Sidebar navigation -->
+  <div class="container-fluid" style="margin-top: 55px;">
+    <div class="row">
+      
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar " style="background-color:#9A07B8;"   >
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" routerLink="/user"> 
+                  <i class="fas fa-user"></i>My Account
+                </a>
+              </li>
+        
+        
+             <li class="nav-item">
+                <a class="nav-link " routerLink="/smessage">
+                  <i class="fas fa-user"></i>Messages
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " routerLink="/assignment">
+                  <i class="fas fa-user"></i>Assignments
+                </a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link " routerLink="/scalander">
+                  <i class="fas fa-user"></i>Calendar
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " routerLink="/myexams">
+                  <i class="fas fa-user"></i>Exams
+                </a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link " routerLink="/filebox">
+                  <i class="fas fa-user"></i>File Box
+                </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link " routerLink="/fees">
+                  <i class="fas fa-user"></i>Fees
+                </a>
+              </li>
+  
+  
+  <!-- 
+              <li class="nav-item">
+                <a class="nav-link " routerLink="/content">
+                  <i class="fas fa-user"></i>Activities
+                </a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link " routerLink="/content">
+                  <i class="fas fa-user"></i>Results
+                </a>
+              </li>
+               -->
+         
+             
+  
+            </ul>
+   
+          </div>
+        </nav>
+          
+          <!-- Main content -->
+       
+        
+        <!-- Main content -->
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+          <div class="inner-adjust">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h2>Dashboard</h2>
+              </div>
+              <div>
+          
+               </div>
+          </div>
+             
+          <hr/>
+            
+          <div>  
+
+            <div class="col-8">    <div class="container"    data-bs-toggle="modal" data-bs-target="#events" >
+              <full-calendar [options]="calendarOptions"  data-bs-toggle="modal" data-bs-target="#currentevent" ></full-calendar>
+            </div>
+            
+            </div>
+          </div>
+                
+          </div>
+        </main>
+  
+    
+    
+        
+        
+     
